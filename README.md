@@ -23,20 +23,20 @@
 ## basic Object, Array, Function
 
 - [x] Obj Foundation: Obj literal
-- [ ] Ftn Foundation
-- [ ] Obj Foundation: Constructor
-- [ ] Obj Foundation: built-in Obj
-- [ ] Array Foundation
+- [x] Ftn Foundation
+- [x] Obj Foundation: Constructor
+- [x] Obj Foundation: built-in Obj
+- [x] Array Foundation
 
 ## Expression & Operator
 
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
+- [x] operator
+- [x] arithmetic operator
+- [x] string operator
+- [x] logic & relationship operator
+- [ ] bit operator
+- [x] etc operator
+- [x] explicit type conversion
 
 ## I/O from a Web browser
 

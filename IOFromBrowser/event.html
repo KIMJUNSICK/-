@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>event</title>
+    <script>
+      function displayTime() {
+        var d = new Date();
+        console.log("The current time is " + d.toLocaleString());
+      }
+      function displayTrue() {
+        const isTrue = true;
+        console.log("this is " + isTrue);
+      }
+      window.onload = function() {
+        var timeButton = document.getElementById("timeButton");
+        timeButton.onclick = displayTime;
+        const trueButton = document.getElementById("trueButton");
+        trueButton.onclick = displayTrue;
+      };
+    </script>
+  </head>
+  <body>
+    <input type="button" value="whatTimeIsItNow?" id="timeButton" />
+    <input type="button" value="isTrue?" id="trueButton" />
+    <script>
+      const consoleJunsik = () => console.log("junsik");
+      const timer = () => setTimeout(consoleJunsik, 2000);
+      timer();
+
+      const interval = () => setInterval(consoleJunsik, 3000);
+      interval();
+    </script>
+  </body>
+</html>
