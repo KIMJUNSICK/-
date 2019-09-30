@@ -23,5 +23,13 @@
     <p>몸무게: <input type="number" id="weight" /> kg</p>
     <p>당신의 체질량지수는 <output id="bmi">?</output> 입니다</p>
     <input type="button" id="button" value="계산" />
+
+    <!-- document.write -->
+    <script>
+      const now = new Date();
+      const month = now.getMonth() + 1;
+      const day = now.getDate();
+      document.write("<p>Today is " + month + " / " + day + "</p>");
+    </script>
   </body>
 </html>
