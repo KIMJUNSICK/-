@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>BMI</title>
+    <script>
+      window.onload = function() {
+        const hValue = document.getElementById("height").value;
+        const wValue = document.getElementById("weight").value;
+        const bmi = document.getElementById("bmi");
+        const bmiButton = document.getElementById("button");
+
+        bmiButton.onclick = () => {
+          const h = parseFloat(hValue);
+          const w = parseFloat(wValue);
+          bmi.innerHTML = (w / h / h).toFixed(1);
+        };
+      };
+    </script>
+  </head>
+  <body>
+    <p>height: <input type="number" id="height" /> m</p>
+    <p>weight: <input type="number" id="weight" /> kg</p>
+    <p>당신의 체질량 지수는 <output id="bmi">?</output> 입니다.</p>
+    <input type="button" id="button" value="calculate" />
+  </body>
+</html>
