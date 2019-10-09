@@ -40,33 +40,33 @@
 
 ## I/O from a Web browser
 
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
+- [x] dialog
+- [x] console
+- [x] register event handler & timer
+- [x] read & write HTML element dynamically
+- [ ] Computer Graphics with html element of Canvas
 
 ## control statement
 
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
+- [x] control syntax: Intro
+- [x] conditional statement
+- [x] Loop statement
+- [x] jump statement
+- [ ] application example
 
 ## Function
 
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
+- [ ] Define Ftn
+- [ ] Call Ftn
+- [ ] Arguments of Ftn
+- [ ] Recursive Ftn
+- [ ] Evaluation of Program & process
+- [ ] Closure
+- [ ] name space
+- [ ] Ftn as an Obj
+- [ ] Higher-dimension Function
+- [ ] Callback Ftn
+- [ ] Ftn's function added since ES6+
 
 ## Object
 
